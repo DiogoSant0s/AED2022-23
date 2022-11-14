@@ -1,8 +1,11 @@
 #ifndef _DIC
 #define _DIC
+
 #include <string>
 #include <fstream>
 #include <set>
+#include <iostream>
+#include <utility>
 using namespace std;
 
 class WordMean {
@@ -17,14 +20,13 @@ public:
     bool operator < (const WordMean& wm2) const;
 };
 
-class Dictionary
-{
+class Dictionary {
       set<WordMean> words;
 public:
       set<WordMean> getWords() const;
       void addWord(const WordMean& wm);
       void readFile(ifstream& f);
-      string consult(string word1, WordMean& previous, WordMean& next) const;
+      string consult(const string& word1, WordMean& previous, WordMean& next) const;
       bool update(string word1, string mean1);
       void print() const;
 };
