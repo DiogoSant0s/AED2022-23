@@ -1,0 +1,52 @@
+Determining if the function shm_open exists in the rt failed with the following output:
+Change Dir: C:/Users/Diogo/Desktop/AED/aed2223_p05/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe cmTC_09fda && [1/2] Building C object CMakeFiles/cmTC_09fda.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_09fda.exe
+FAILED: cmTC_09fda.exe 
+cmd.exe /C "cd . && E:\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\mingw\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=shm_open  CMakeFiles/cmTC_09fda.dir/CheckFunctionExists.c.obj -o cmTC_09fda.exe -Wl,--out-implib,libcmTC_09fda.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+E:\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\mingw\bin/ld.exe: cannot find -lrt
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: C:/Users/Diogo/Desktop/AED/aed2223_p05/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe cmTC_5628a && [1/2] Building CXX object CMakeFiles/cmTC_5628a.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_5628a.dir/src.cxx.obj 
+E:\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\mingw\bin\g++.exe -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_5628a.dir/src.cxx.obj -c C:/Users/Diogo/Desktop/AED/aed2223_p05/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: unrecognized command-line option '-Wshorten-64-to-32'
+g++.exe: error: unrecognized command-line option '-Wshorten-64-to-32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: C:/Users/Diogo/Desktop/AED/aed2223_p05/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe cmTC_880c9 && [1/2] Building CXX object CMakeFiles/cmTC_880c9.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_880c9.dir/src.cxx.obj 
+E:\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\mingw\bin\g++.exe -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_880c9.dir/src.cxx.obj -c C:/Users/Diogo/Desktop/AED/aed2223_p05/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: unrecognized command-line option '-wd654'
+g++.exe: error: unrecognized command-line option '-wd654'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: C:/Users/Diogo/Desktop/AED/aed2223_p05/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe cmTC_28653 && [1/2] Building CXX object CMakeFiles/cmTC_28653.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_28653.dir/src.cxx.obj 
+E:\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\mingw\bin\g++.exe -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_28653.dir/src.cxx.obj -c C:/Users/Diogo/Desktop/AED/aed2223_p05/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+g++.exe: error: unrecognized command-line option '-Wthread-safety'
+g++.exe: error: unrecognized command-line option '-Wthread-safety'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
