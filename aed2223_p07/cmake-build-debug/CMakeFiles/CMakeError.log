@@ -1,0 +1,52 @@
+Determining if the function shm_open exists in the rt failed with the following output:
+Change Dir: C:/Users/up202009291/Desktop/AED2022-23/aed2223_p07/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_68e38 && [1/2] Building C object CMakeFiles/cmTC_68e38.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_68e38.exe
+FAILED: cmTC_68e38.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=shm_open  CMakeFiles/cmTC_68e38.dir/CheckFunctionExists.c.obj -o cmTC_68e38.exe -Wl,--out-implib,libcmTC_68e38.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lrt
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: C:/Users/up202009291/Desktop/AED2022-23/aed2223_p07/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_5d7bd && [1/2] Building CXX object CMakeFiles/cmTC_5d7bd.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_5d7bd.dir/src.cxx.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_5d7bd.dir/src.cxx.obj -c C:/Users/up202009291/Desktop/AED2022-23/aed2223_p07/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+G__~1.EXE: error: unrecognized command-line option '-Wshorten-64-to-32'
+G__~1.EXE: error: unrecognized command-line option '-Wshorten-64-to-32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: C:/Users/up202009291/Desktop/AED2022-23/aed2223_p07/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_a4fc5 && [1/2] Building CXX object CMakeFiles/cmTC_a4fc5.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_a4fc5.dir/src.cxx.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_a4fc5.dir/src.cxx.obj -c C:/Users/up202009291/Desktop/AED2022-23/aed2223_p07/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+G__~1.EXE: error: unrecognized command-line option '-wd654'
+G__~1.EXE: error: unrecognized command-line option '-wd654'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: C:/Users/up202009291/Desktop/AED2022-23/aed2223_p07/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_5bf40 && [1/2] Building CXX object CMakeFiles/cmTC_5bf40.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_5bf40.dir/src.cxx.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_5bf40.dir/src.cxx.obj -c C:/Users/up202009291/Desktop/AED2022-23/aed2223_p07/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+G__~1.EXE: error: unrecognized command-line option '-Wthread-safety'
+G__~1.EXE: error: unrecognized command-line option '-Wthread-safety'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
