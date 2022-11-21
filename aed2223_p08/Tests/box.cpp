@@ -25,14 +25,13 @@ unsigned Box::getSize() const {return objects.size();}
 // ---------------------------------------------
 
 //TODO
-bool Object::operator<(const Object& o1) const {
-
-	return true;
+bool Object::operator < (const Object& o1) const {
+	return weight < o1.getWeight();
 }
 
 //TODO
-bool Box::operator<(const Box& b1) const {
-
+bool Box::operator < (const Box& b1) const {
+    if ()
 	return true;
 }
 

@@ -17,27 +17,67 @@ HeapBox PackagingMachine::getBoxes() const {return this -> boxes;}
 
 // TODO
 unsigned PackagingMachine::loadObjects(vector<Object>& objs) {
-
-	return 0;
+    int c = 0;
+    auto it = objs.begin();
+    while (it != objs.end()) {
+        if (it -> getWeight() <= boxCapacity) {
+            objects.push(*it);
+            objs.erase(it);
+            c++;
+        } else {
+            it++;
+        }
+    }
+	return c;
 }
 
 // TODO
 Box PackagingMachine::searchBox(Object& obj) {
-
-    return Box(0);
+    vector<Box> box;
+    while (!boxes.empty()) {
+        if (boxes.top().getFree() >= obj.getWeight()) {
+            Box bx = boxes.top();
+            boxes.pop();
+            for (const auto& i : box) {boxes.push(i);}
+            return bx;
+        } else {
+            box.push_back(boxes.top());
+            boxes.pop();
+        }
+    }
+    for (const auto& i : box) {
+        boxes.push(i);
+    }
+    return Box(boxCapacity);
 }
 
 
 // TODO
 unsigned PackagingMachine::packObjects() {
-
-	return 0;
+    Box temp;
+    while (!objects.empty()) {
+        Object tmp = objects.top();
+        objects.pop();
+        temp = searchBox(tmp);
+        temp.addObject(tmp);
+        boxes.push(temp);
+    }
+	return boxes.size();
 }
 
 // TODO
 stack<Object> PackagingMachine::boxWithMoreObjects() const {
     stack<Object> res;
-
+    HeapBox box = boxes;
+    unsigned int max = INT32_MIN;
+    if (box.empty()) {return res;}
+    while (!box.empty()) {
+        if (box.top().getSize() > max) {
+            res = box.top().getObjects();
+            max = box.top().getSize();
+        }
+        box.pop();
+    }
 	return res;
 }
 

@@ -12,7 +12,7 @@ TEST(test_, loadObjects) {
     objects.emplace_back(3, 17); objects.emplace_back(4, 3);
     objects.emplace_back(5, 9); objects.emplace_back(6, 4);
     objects.emplace_back(7, 2); objects.emplace_back(8, 12);
-    objects.emplace_back(Object(9, 7)); objects.emplace_back(Object(10, 1));
+    objects.emplace_back(9, 7); objects.emplace_back(10, 1);
 
     PackagingMachine machine;
     unsigned int objsLoaded = machine.loadObjects(objects);
@@ -52,7 +52,7 @@ TEST(test_, searchBox) {
     bool isEmp = boxesH.empty();
     EXPECT_EQ(false, isEmp);
     if (!isEmp)
-        EXPECT_EQ(2,boxesH.top().getFree());
+        EXPECT_EQ(2, boxesH.top().getFree());
 
     Box bx = machine.searchBox(objects[3]);
     bx.addObject(objects[3]);
@@ -144,7 +144,7 @@ TEST(test_, packObjects) {
     }
 }
 
-TEST(test_, boxMoreObjects) {
+TEST(test_, boxWithMoreObjects) {
     cout << endl << "Testing 'box With More Objects'" << endl;
     vector<Object> objects;
     objects.emplace_back(Object(1, 2));

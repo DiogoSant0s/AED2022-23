@@ -12,7 +12,7 @@ public:
 	Object(unsigned i, unsigned w);
 	unsigned getID() const;
 	unsigned getWeight() const;
-	bool operator<(const Object& o1) const;
+	bool operator < (const Object& o1) const;
 };
 
 
@@ -23,13 +23,13 @@ class Box {
 	unsigned capacity;
 	unsigned free;
 public:
-    Box(unsigned cap = 10);
+    explicit Box(unsigned cap = 10);
     unsigned getCapacity() const;
     unsigned getFree() const;
     void addObject(Object& obj);
     StackObj getObjects() const;
     unsigned getSize() const;
-	bool operator<(const Box& b1) const;
+	bool operator < (const Box& b1) const;
 };
 
 #endif

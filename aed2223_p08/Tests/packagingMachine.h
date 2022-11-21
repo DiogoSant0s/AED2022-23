@@ -21,8 +21,8 @@ public:
 	unsigned addBox(Box& b1);
     HeapObj getObjects() const;
     HeapBox getBoxes() const;
-
-	unsigned loadObjects(vector<Object> &objs);
+    // TODO
+	unsigned loadObjects(vector<Object>& objs);
 	Box searchBox(Object& obj);
 	unsigned packObjects();
 	stack<Object> boxWithMoreObjects() const;
