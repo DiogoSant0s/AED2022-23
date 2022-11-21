@@ -16,7 +16,7 @@ class PackagingMachine {
 	HeapBox boxes;
 	unsigned boxCapacity;
 public:
-	PackagingMachine(int boxCap = 10);
+	explicit PackagingMachine(int boxCap = 10);
 	unsigned numberOfBoxes();
 	unsigned addBox(Box& b1);
     HeapObj getObjects() const;

@@ -9,7 +9,7 @@ using testing::Eq;
 
 // TODO TEST para o problema de hashing
 TEST(test_1, a_FindDuplicates) {
-    vector<int> v1 = { 5, 6, 8, 2, 4, 6, 9 };
+    vector<int> v1 = {5, 6, 8, 2, 4, 6, 9};
     EXPECT_EQ(7, v1.size());
     EXPECT_EQ(5, v1[0]);
     EXPECT_EQ(9, v1[6]);
@@ -21,7 +21,7 @@ TEST(test_1, a_FindDuplicates) {
     vector<int> res2 = FunHashingProblem::findDuplicates(v1, 2);
     EXPECT_EQ(0, res2.size());
 
-    vector<int> v2 = { 1, 2, 3, 2, 1 };
+    vector<int> v2 = {1, 2, 3, 2, 1};
     EXPECT_EQ(5, v2.size());
     vector<int> res3 = FunHashingProblem::findDuplicates(v2, 7);
     EXPECT_EQ(2, res3.size());
@@ -88,15 +88,15 @@ TEST(test_2, drawnBets){
     j.addBet(b3);
     EXPECT_EQ(3,j.getNumBets());
 
-    vector<int> draw = {44,18,22,33,45,8};
+    vector<int> draw = {44, 18, 22, 33, 45, 8};
     vector<string> res = j.drawnBets(draw);
-    EXPECT_EQ(2,res.size());
-    vector<string>::iterator it= find(res.begin(), res.end(),"Rui");
-    EXPECT_EQ(false, it==res.end());
-    it= find(res.begin(), res.end(),"Joao");
-    EXPECT_EQ(false, it==res.end());
-    it= find(res.begin(), res.end(),"Maria");
-    EXPECT_EQ(true, it==res.end());
+    EXPECT_EQ(2, res.size());
+    auto it = find(res.begin(), res.end(),"Rui");
+    EXPECT_EQ(false, it == res.end());
+    it = find(res.begin(), res.end(),"Joao");
+    EXPECT_EQ(false, it == res.end());
+    it = find(res.begin(), res.end(),"Maria");
+    EXPECT_EQ(true, it == res.end());
 }
 
 //----------------------------------------- BENCHMARK
@@ -106,11 +106,11 @@ static void BM_FindDuplicates(benchmark::State& state) {
         state.PauseTiming();
         // runtime of this will be ignored
         vector<int> v;
-        for (long i=0;i< state.range(0); i++)
-            v.push_back (i%10+3);
+        for (long i = 0; i < state.range(0); i++)
+            v.push_back (i % 10 + 3);
         state.ResumeTiming();
         // This code gets timed
-        FunHashingProblem::findDuplicates(v,4);
+        FunHashingProblem::findDuplicates(v, 4);
     }
     state.SetComplexityN(state.range(0));
 }
@@ -119,11 +119,7 @@ static void BM_FindDuplicates(benchmark::State& state) {
 // ------------------------------------------------ retirar comentarios para verificar complexidade
 // Register the functions as a benchmark
 
-/*
 BENCHMARK(BM_FindDuplicates)
         ->Unit(benchmark::kNanosecond)
-        ->RangeMultiplier(2)->Range(1<<10, 1<<18)
+        ->RangeMultiplier(2) -> Range(1 << 10, 1 << 18)
         ->Complexity();
-*/
-
-

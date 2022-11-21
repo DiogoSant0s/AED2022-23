@@ -23,7 +23,7 @@ class Box {
 	unsigned capacity;
 	unsigned free;
 public:
-    Box(unsigned cap=10);
+    Box(unsigned cap = 10);
     unsigned getCapacity() const;
     unsigned getFree() const;
     void addObject(Object& obj);
