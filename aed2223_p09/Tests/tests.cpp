@@ -29,7 +29,7 @@ TEST(test_1, a_FindDuplicates) {
     EXPECT_EQ(1, res3[1]);
 }
 
-TEST(test_2, addBet){
+TEST(test_2, addBet) {
     Jackpot j;
 
     vector<int> vals = {30, 45, 22, 17, 8, 15};
@@ -51,7 +51,7 @@ TEST(test_2, addBet){
     EXPECT_EQ(3,j.getNumBets());
 }
 
-TEST(test_2, betsInNumber){
+TEST(test_2, betsInNumber) {
     Jackpot j;
     vector<int> vals = {30, 45, 22, 17, 8, 15};
     Bet b1(vals, "Rui");
@@ -72,7 +72,7 @@ TEST(test_2, betsInNumber){
     EXPECT_EQ(0,j.betsInNumber(5));
 }
 
-TEST(test_2, drawnBets){
+TEST(test_2, drawnBets) {
     Jackpot j;
     vector<int> vals = {30, 45, 22, 17, 8, 18};
     Bet b1(vals, "Rui");

@@ -150,16 +150,18 @@ Graph FunWithGraphs::graph11() {
 // ----------------------------------------------------------
 // Exercicio 5: Contagem de Celulas
 // ----------------------------------------------------------
-// TODO
+
 int FunWithGraphs::largestMicrobe(int rows, int cols, string m[]) {
+
     return 0;
 }
 
 // ----------------------------------------------------------
 // Exercicio 6: Labirinto de Barras
 // ----------------------------------------------------------
-// TODO
+
 pair<int, int>FunWithGraphs::slashMaze(int rows, int cols, string m[]) {
     pair<int, int> ans = {-1, -1};
+
     return ans;
 }

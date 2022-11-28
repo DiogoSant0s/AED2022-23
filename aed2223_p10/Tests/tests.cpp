@@ -11,9 +11,9 @@ using testing::Eq;
 // ----------------------------------------------------------
 // Exercicio 1.a: Devolvendo o grau
 // ----------------------------------------------------------
+
 TEST(test_1, outDegree) {
     cout << "Testando 'outDegree'" << endl;
-
     cout << "  . graph1" << endl;
     Graph g1 = FunWithGraphs::graph1();
     EXPECT_EQ(2, g1.outDegree(1));
@@ -71,9 +71,9 @@ TEST(test_1, outDegree) {
 // ----------------------------------------------------------
 // Exercicio 1.b: Devolvendo o grau... pesado
 // ----------------------------------------------------------
+
 TEST(test_1, weightedOutDegree) {
     cout << "Testando 'WeightedOutDegree'" << endl;
-
     cout << "  . graph8" << endl;
     Graph g8 = FunWithGraphs::graph8();
     EXPECT_EQ(9, g8.weightedOutDegree(1));
@@ -116,9 +116,9 @@ TEST(test_1, weightedOutDegree) {
 // ----------------------------------------------------------
 // Exercicio 2.a: Contando componentes conexos
 // ----------------------------------------------------------
+
 TEST(test_2, connectedComponents) {
     cout << "Testando 'connectedComponents'" << endl;
-
     cout << "  . graph1" << endl;
     Graph g1 = FunWithGraphs::graph1();
     EXPECT_EQ(1, g1.connectedComponents());
@@ -143,9 +143,9 @@ TEST(test_2, connectedComponents) {
 // ----------------------------------------------------------
 // Exercicio 2.b: Componente gigante
 // ----------------------------------------------------------
+
 TEST(test_2, giantComponent) {
     cout << "Testando 'giantComponent'" << endl;
-
     cout << "  . graph1" << endl;
     Graph g1 = FunWithGraphs::graph1();
     EXPECT_EQ(9, g1.giantComponent());
@@ -170,19 +170,21 @@ TEST(test_2, giantComponent) {
 // ----------------------------------------------------------
 // Exercicio 3: Ordenacao topologica
 // ----------------------------------------------------------
+
 TEST(test_3, topologicalSorting) {
     cout << "Testando 'topologicalSorting'" << endl;
-
     cout << "  . graph4" << endl;
     Graph g4 = FunWithGraphs::graph4();
     list<int> order = g4.topologicalSorting();
     // Uncomment to print order
-    // cout << "    Order:"; for (auto v : order ) cout << " " << v; cout << endl;
+    cout << "    Order:";
+    for (auto v : order ) cout << " " << v;
+    cout << endl;
     // A naive exhaustive verification
     EXPECT_EQ(9, order.size()); // size of order
-    for (int v=1; v<=9; v++) EXPECT_NE(order.end(), find(order.begin(), order.end(), v)); // v exists
+    for (int v = 1; v <= 9; v++) EXPECT_NE(order.end(), find(order.begin(), order.end(), v)); // v exists
     // "Ugly", but to keep the graph class as simple as possible and as it was given so as not to confuse students
-    vector<pair<int, int>> edges4 = {{1,2},{1,3}, {2,4}, {3,4}, {4,5}, {5,6}, {9,6},{7,5}, {8,7}};
+    vector<pair<int, int>> edges4 = {{1,2}, {1,3}, {2,4}, {3,4}, {4,5}, {5,6}, {9,6}, {7,5}, {8,7}};
     for (auto e : edges4) {
         auto u = find(order.begin(), order.end(), e.first);
         auto v = find(order.begin(), order.end(), e.second);
@@ -193,12 +195,14 @@ TEST(test_3, topologicalSorting) {
     Graph g6 = FunWithGraphs::graph6();
     order = g6.topologicalSorting();
     // Uncomment to print order
-    // cout << "    Order:"; for (auto v : order ) cout << " " << v; cout << endl;
+    cout << "    Order:";
+    for (auto v : order ) cout << " " << v;
+    cout << endl;
     // A naive exhaustive verification
     EXPECT_EQ(8, order.size()); // size of order
-    for (int v=1; v<=8; v++) EXPECT_NE(order.end(), find(order.begin(), order.end(), v)); // v exists
+    for (int v = 1; v <= 8; v++) EXPECT_NE(order.end(), find(order.begin(), order.end(), v)); // v exists
     // "Ugly", but to keep the graph class as simple as possible and as it was given so as not to confuse students
-    vector<pair<int, int>> edges6 = {{1,2},{3,1}, {2,4}, {5,4}, {5,6}, {6,7}, {6,8}, {8,7}};
+    vector<pair<int, int>> edges6 = {{1,2}, {3,1}, {2,4}, {5,4}, {5,6}, {6,7}, {6,8}, {8,7}};
     for (auto e : edges6) {
         auto u = find(order.begin(), order.end(), e.first);
         auto v = find(order.begin(), order.end(), e.second);
@@ -209,12 +213,14 @@ TEST(test_3, topologicalSorting) {
     Graph g10 = FunWithGraphs::graph10();
     order = g10.topologicalSorting();
     // Uncomment to print order
-    // cout << "    Order:"; for (auto v : order ) cout << " " << v; cout << endl;
+    cout << "    Order:";
+    for (auto v : order ) cout << " " << v;
+    cout << endl;
     // A naive exhaustive verification
     EXPECT_EQ(8, order.size()); // size of order
-    for (int v=1; v<=8; v++) EXPECT_NE(order.end(), find(order.begin(), order.end(), v)); // v exists
+    for (int v = 1; v <= 8; v++) EXPECT_NE(order.end(), find(order.begin(), order.end(), v)); // v exists
     // "Ugly", but to keep the graph class as simple as possible and as it was given so as not to confuse students
-    vector<pair<int, int>> edges10 = {{2,1},{1,3}, {4,2}, {5,4}, {5,6}, {6,7}, {6,8}, {8,7}};
+    vector<pair<int, int>> edges10 = {{2,1}, {1,3}, {4,2}, {5,4}, {5,6}, {6,7}, {6,8}, {8,7}};
     for (auto e : edges10) {
         auto u = find(order.begin(), order.end(), e.first);
         auto v = find(order.begin(), order.end(), e.second);
@@ -225,9 +231,9 @@ TEST(test_3, topologicalSorting) {
 // ----------------------------------------------------------
 // Exercicio 4: To be or not be… a DAG!
 // ----------------------------------------------------------
+
 TEST(test_4, hasCycle) {
     cout << "Testando 'hasCycle'" << endl;
-
     cout << "  . graph4" << endl;
     Graph g4 = FunWithGraphs::graph4();
     EXPECT_FALSE(g4.hasCycle());
@@ -256,9 +262,9 @@ TEST(test_4, hasCycle) {
 // ----------------------------------------------------------
 // Exercicio 5: Contagem de Celulas
 // ----------------------------------------------------------
+
 TEST(test_5, largestMicrobe) {
     cout << "Testando 'largestMicrobe'" << endl;
-
     cout << "  . Exemplo do enunciado" << endl;
     string m1[5] = {"##.#...",
                     ".###...",
@@ -268,7 +274,6 @@ TEST(test_5, largestMicrobe) {
     EXPECT_EQ(6, FunWithGraphs::largestMicrobe(5, 7, m1));
 
     cout << "  . Outros casos" << endl;
-
     string m2[3] = {"...",
                     "...",
                     "..."};
@@ -292,11 +297,10 @@ TEST(test_5, largestMicrobe) {
 // ----------------------------------------------------------
 // Exercicio 5: Contagem de Celulas
 // ----------------------------------------------------------
+
 TEST(test_6, slashMaze) {
     cout << "Testando 'slashMaze'" << endl;
-
     cout << "  . Exemplos do enunciado" << endl;
-
     // R"()" is a raw literal (avoiding having to escape the backslash)
     string m1[4] = {R"(\//\\/)",
                     R"(\///\/)",
@@ -306,7 +310,6 @@ TEST(test_6, slashMaze) {
     EXPECT_EQ(ans1, FunWithGraphs::slashMaze(4, 6, m1));
 
     cout << "  . Outros casos de teste" << endl;
-
     string m3[5] = {R"(/\/\/)",
                     R"(\/\/\)",
                     R"(/\/\/)",

@@ -1,35 +1,25 @@
 Determining if the function shm_open exists in the rt failed with the following output:
 Change Dir: C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ce4a9/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ce4a9.dir\build.make CMakeFiles/cmTC_ce4a9.dir/build
-mingw32-make[1]: Entering directory 'C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ce4a9.dir/CheckFunctionExists.c.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles\cmTC_ce4a9.dir\CheckFunctionExists.c.obj -c "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\share\cmake-3.23\Modules\CheckFunctionExists.c"
-Linking C executable cmTC_ce4a9.exe
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ce4a9.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ce4a9.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_ce4a9.dir/objects.a @CMakeFiles\cmTC_ce4a9.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe  -DCHECK_FUNCTION_EXISTS=shm_open -Wl,--whole-archive CMakeFiles\cmTC_ce4a9.dir/objects.a -Wl,--no-whole-archive -o cmTC_ce4a9.exe -Wl,--out-implib,libcmTC_ce4a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ce4a9.dir\linklibs.rsp
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_959bf && [1/2] Building C object CMakeFiles/cmTC_959bf.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_959bf.exe
+FAILED: cmTC_959bf.exe 
+cmd.exe /C "cd . && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=shm_open  CMakeFiles/cmTC_959bf.dir/CheckFunctionExists.c.obj -o cmTC_959bf.exe -Wl,--out-implib,libcmTC_959bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
 C:\Program Files\JetBrains\CLion 2022.2.1\bin\mingw\bin/ld.exe: cannot find -lrt
 collect2.exe: error: ld returned 1 exit status
-mingw32-make[1]: *** [CMakeFiles\cmTC_ce4a9.dir\build.make:100: cmTC_ce4a9.exe] Error 1
-mingw32-make[1]: Leaving directory 'C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:126: cmTC_ce4a9/fast] Error 2
+ninja: build stopped: subcommand failed.
 
 
 
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
 Change Dir: C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_45f5b/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_45f5b.dir\build.make CMakeFiles/cmTC_45f5b.dir/build
-mingw32-make[1]: Entering directory 'C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_45f5b.dir/src.cxx.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles\cmTC_45f5b.dir\src.cxx.obj -c C:\Users\up202009291\Desktop\GitHub\AED2022-23\aed2223_p09\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_b98de && [1/2] Building CXX object CMakeFiles/cmTC_b98de.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_b98de.dir/src.cxx.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_b98de.dir/src.cxx.obj -c C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
 G__~1.EXE: error: unrecognized command-line option '-Wshorten-64-to-32'
 G__~1.EXE: error: unrecognized command-line option '-Wshorten-64-to-32'
-mingw32-make[1]: *** [CMakeFiles\cmTC_45f5b.dir\build.make:77: CMakeFiles/cmTC_45f5b.dir/src.cxx.obj] Error 1
-mingw32-make[1]: Leaving directory 'C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:126: cmTC_45f5b/fast] Error 2
+ninja: build stopped: subcommand failed.
 
 
 Source file was:
@@ -37,15 +27,12 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
 Change Dir: C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_cac0d/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cac0d.dir\build.make CMakeFiles/cmTC_cac0d.dir/build
-mingw32-make[1]: Entering directory 'C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cac0d.dir/src.cxx.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654   -wd654 -std=c++11 -o CMakeFiles\cmTC_cac0d.dir\src.cxx.obj -c C:\Users\up202009291\Desktop\GitHub\AED2022-23\aed2223_p09\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_8c72e && [1/2] Building CXX object CMakeFiles/cmTC_8c72e.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_8c72e.dir/src.cxx.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_8c72e.dir/src.cxx.obj -c C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
 G__~1.EXE: error: unrecognized command-line option '-wd654'
 G__~1.EXE: error: unrecognized command-line option '-wd654'
-mingw32-make[1]: *** [CMakeFiles\cmTC_cac0d.dir\build.make:77: CMakeFiles/cmTC_cac0d.dir/src.cxx.obj] Error 1
-mingw32-make[1]: Leaving directory 'C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:126: cmTC_cac0d/fast] Error 2
+ninja: build stopped: subcommand failed.
 
 
 Source file was:
@@ -53,15 +40,12 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
 Change Dir: C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4974e/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4974e.dir\build.make CMakeFiles/cmTC_4974e.dir/build
-mingw32-make[1]: Entering directory 'C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4974e.dir/src.cxx.obj
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles\cmTC_4974e.dir\src.cxx.obj -c C:\Users\up202009291\Desktop\GitHub\AED2022-23\aed2223_p09\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_e5f2c && [1/2] Building CXX object CMakeFiles/cmTC_e5f2c.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_e5f2c.dir/src.cxx.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_e5f2c.dir/src.cxx.obj -c C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
 G__~1.EXE: error: unrecognized command-line option '-Wthread-safety'
 G__~1.EXE: error: unrecognized command-line option '-Wthread-safety'
-mingw32-make[1]: *** [CMakeFiles\cmTC_4974e.dir\build.make:77: CMakeFiles/cmTC_4974e.dir/src.cxx.obj] Error 1
-mingw32-make[1]: Leaving directory 'C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p09/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make: *** [Makefile:126: cmTC_4974e/fast] Error 2
+ninja: build stopped: subcommand failed.
 
 
 Source file was:
