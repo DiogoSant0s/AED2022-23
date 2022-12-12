@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0092c682-ecc1-4b44-8f17-04aef0a51513" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/.idea/aed2223_p11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/Tests/graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/aed2223_p11.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/cache-v2-ffee08e2c5196f6a2a3d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1e775355abb7ef65d7bf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f5304e20242a16c6f32c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/directory-lib.googletest-master-Debug-75ae683b823e4a5f5c1c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/directory-lib.googletest-master.googlemock-Debug-c6d219d5fa29382de97e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/directory-lib.googletest-master.googletest-Debug-364526e3bb4ec4da34de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-12T14-47-55-0894.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/target-aed2223_p11-Debug-ef7094436d072b568035.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/target-gmock-Debug-79bf85fcd6532fc23268.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/target-gmock_main-Debug-ab4ad6e1bb1f0572c3b4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/target-gtest-Debug-fcd523b30bfc3ea0a3ec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/target-gtest_main-Debug-ee3005b26cf54f9dd9ed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-a2cd6e1c21819857cbc5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googlemock/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets-debug.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/generated/GTestConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/generated/GTestConfigVersion.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/generated/gmock.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/generated/gmock_main.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/generated/gtest.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/cmake-build-debug/lib/googletest-master/googletest/generated/gtest_main.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/.github/ISSUE_TEMPLATE/10-feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/WORKSPACE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/ci/linux-presubmit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googlemock/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googlemock/include/gmock/internal/custom/gmock-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googlemock/include/gmock/internal/gmock-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googlemock/src/gmock-all.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googlemock/src/gmock-matchers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googlemock/test/gmock_ex_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googlemock/test/gmock_link_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googlemock/test/gmock_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/cmake/gtest.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/cmake/gtest_main.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/include/gtest/gtest-death-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/include/gtest/gtest-printers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/include/gtest/gtest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/include/gtest/internal/gtest-death-test-internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/samples/sample1_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/samples/sample2.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/samples/sample2_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/src/gtest-internal-inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/src/gtest-typed-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-catch-exceptions-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-env-var-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-failfast-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-filter-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-json-outfiles-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-listener-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-param-test-invalid-name1-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-printers-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-shuffle-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/googletest-test-part-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest-typed-test_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_assert_by_exception_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_help_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_no_test_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_skip_check_output_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_skip_environment_check_output_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_skip_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_sole_header_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_throw_on_failure_ex_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_xml_outfile1_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aed2223_p11/lib/googletest-master/googletest/test/gtest_xml_output_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/CONTRIBUTORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/cmake/gmock.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/include/gmock/gmock-matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/include/gmock/gmock-more-matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/include/gmock/internal/gmock-internal-utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/include/gmock/internal/gmock-pp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/src/gmock-all.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/src/gmock-internal-utils.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/src/gmock-matchers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/src/gmock_main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/test/BUILD.bazel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/test/gmock_ex_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/test/gmock_link_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googlemock/test/gmock_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/include/gtest/gtest-death-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/include/gtest/gtest-spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/include/gtest/gtest_pred_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/include/gtest/internal/gtest-internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/samples/prime_tables.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/samples/sample10_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/samples/sample1_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/samples/sample2.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/samples/sample2_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/samples/sample4_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/samples/sample5_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/samples/sample6_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/src/gtest-matchers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/src/gtest-test-part.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/src/gtest-typed-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/src/gtest_main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/BUILD.bazel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-break-on-failure-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-color-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-color-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-failfast-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-filter-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-json-outfiles-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-list-tests-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-list-tests-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-listener-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-param-test-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-port-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-printers-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-throw-on-failure-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-throw-on-failure-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/googletest-uninitialized-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/gtest_list_output_unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/gtest_main_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/gtest_premature_exit_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/gtest_skip_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/gtest_stress_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/googletest-master/googletest/test/gtest_xml_outfile1_test_.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aed2223_p10/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../aed2223_p10/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.1" />
+  </component>
+  <component name="ProjectId" id="2Ionge7GhhcPyAr9RPFaU8aHktk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p12"
+  }
+}]]></component>
+  <component name="RunManager" selected="Google Test.aed2223_p12">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aed2223_p12" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aed2223_p12" TARGET_NAME="aed2223_p12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aed2223_p12" RUN_TARGET_NAME="aed2223_p12" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aed2223_p12" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aed2223_p12" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aed2223_p12" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aed2223_p12" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.aed2223_p12" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0092c682-ecc1-4b44-8f17-04aef0a51513" name="Changes" comment="" />
+      <created>1670856915532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670856915532</updated>
+      <workItem from="1670856916848" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
