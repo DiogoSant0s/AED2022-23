@@ -3,9 +3,10 @@
 
 #include "graph.h"
 
+#include <utility>
+
 // Constructor: nr nodes and direction (default: undirected)
-Graph::Graph(int num, bool dir) : n(num), hasDir(dir), nodes(num+1) {
-}
+Graph::Graph(int num, bool dir) : n(num), hasDir(dir), nodes(num+1) {}
 
 // Add edge from source to destination with a certain weight
 void Graph::addEdge(int src, int dest, int weight) {
@@ -26,6 +27,17 @@ void Graph::dfs(int v) {
     }
 }
 
+void Graph::coloreddfs(int v, bool color) {
+    // show node order
+    cout << v << " ";
+    nodes[v].visited = true;
+    nodes[v].color = color;
+    for (auto e : nodes[v].adj) {
+        int w = e.dest;
+        if (!nodes[w].visited)
+            coloreddfs(w, !nodes[v].color);
+    }
+}
 
 // ----------------------------------------------------------
 // Exercicio 1: DFS e grafos bipartidos
@@ -33,8 +45,22 @@ void Graph::dfs(int v) {
 
 // TODO
 bool Graph::bipartite() {
-
-    return false;
+    for (int i = 1; i <= n; i++) {
+        nodes[i].visited = false;
+    }
+    coloreddfs(1, "red");
+    for (int i = 2; i <= n; i++) {
+        if (!nodes[i].visited) {
+            coloreddfs(i, false);
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (Edge e : nodes[i].adj) {
+            int w = e.dest;
+            if (nodes[i].color == nodes[w].color) {return false;}
+        }
+    }
+    return true;
 }
 
 // ----------------------------------------------------------

@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\up202009291\Desktop\GitHub\AED2022-23\aed2223_p10 -B C:\Users\up202009291\Desktop\GitHub\AED2022-23\aed2223_p10\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\up202009291\Desktop\AED2022-23\aed2223_p10 -B C:\Users\up202009291\Desktop\AED2022-23\aed2223_p10\cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -14,4 +14,4 @@
 -- Found Python: C:/Python310/python.exe (found version "3.10.5") found components: Interpreter 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p10/cmake-build-debug
+-- Build files have been written to: C:/Users/up202009291/Desktop/AED2022-23/aed2223_p10/cmake-build-debug

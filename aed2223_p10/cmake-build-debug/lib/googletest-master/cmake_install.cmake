@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p10/lib/googletest-master
+# Install script for directory: C:/Users/up202009291/Desktop/AED2022-23/aed2223_p10/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/up202009291/Desktop/GitHub/AED2022-23/aed2223_p10/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("C:/Users/up202009291/Desktop/AED2022-23/aed2223_p10/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 
