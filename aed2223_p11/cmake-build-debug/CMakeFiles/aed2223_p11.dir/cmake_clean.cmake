@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "../Tests/aed2223_p11.exe"
-  "../Tests/aed2223_p11.exe.manifest"
-  "../Tests/aed2223_p11.pdb"
+  "C:/Users/Diogo/Desktop/AED/AED2022-23/aed2223_p11/Tests/aed2223_p11.exe"
+  "C:/Users/Diogo/Desktop/AED/AED2022-23/aed2223_p11/Tests/aed2223_p11.exe.manifest"
+  "C:/Users/Diogo/Desktop/AED/AED2022-23/aed2223_p11/Tests/aed2223_p11.pdb"
   "CMakeFiles/aed2223_p11.dir/Tests/funWithGraphs.cpp.obj"
   "CMakeFiles/aed2223_p11.dir/Tests/funWithGraphs.cpp.obj.d"
   "CMakeFiles/aed2223_p11.dir/Tests/graph.cpp.obj"

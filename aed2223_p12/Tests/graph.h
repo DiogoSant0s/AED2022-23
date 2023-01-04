@@ -1,8 +1,8 @@
 // AED 2022/2023 - Aula Pratica 12
 // Pedro Ribeiro (DCC/FCUP) [last update: 11/12/2022]
 
-#ifndef _GRAPH_H_
-#define _GRAPH_H_
+#ifndef GRAPH_H_
+#define GRAPH_H_
 
 #include <list>
 #include <vector>
@@ -28,7 +28,7 @@ class Graph {
 
 public:
     // Constructor: nr nodes and direction (default: undirected)
-    Graph(int nodes, bool dir = false);
+    explicit Graph(int nodes, bool dir = false);
 
     // Add edge from source to destination with a certain weight
     void addEdge(int src, int dest, int weight = 1);

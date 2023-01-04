@@ -3,10 +3,8 @@
 
 #include "graph.h"
 
-#include <utility>
-
 // Constructor: nr nodes and direction (default: undirected)
-Graph::Graph(int num, bool dir) : n(num), hasDir(dir), nodes(num+1) {}
+Graph::Graph(int num, bool dir) : n(num), hasDir(dir), nodes(num + 1) {}
 
 // Add edge from source to destination with a certain weight
 void Graph::addEdge(int src, int dest, int weight) {
