@@ -6,6 +6,7 @@
 
 #include <list>
 #include <vector>
+#include <stack>
 #include <iostream>
 
 using namespace std;
@@ -19,11 +20,16 @@ class Graph {
         list<Edge> adj; // The list of outgoing edges (to adjacent nodes)
         bool visited;   // As the node been visited on a search?
         bool color;
+        bool inStack;
+        int num;
+        int low;
+        int parent;
+        int cost;
     };
-    int n;              // Graph size (vertices are numbered from 1 to n)
     bool hasDir;        // false: undirected; true: directed
-    vector<Node> nodes; // The list of nodes being represented
 public:
+    vector<Node> nodes; // The list of nodes being represented
+    int n; // Graph size (vertices are numbered from 1 to n)
     // Constructor: nr nodes and direction (default: undirected)
     explicit Graph(int nodes, bool dir = false);
     // Add edge from source to destination with a certain weight
@@ -31,6 +37,9 @@ public:
     // Depth-First Search: example implementation
     void dfs(int v);
     void coloreddfs(int v, bool color);
+    void dfs_scc2(int v, stack<int> &st, list<list<int>> &sccs, int &currCount);
+    int dfs_count_scc(int v, int &order, stack<int> &s);
+    void dfs_articulation_points(int v, int &order, list<int> &l);
     // ----- Functions to implement in this class -----
     bool bipartite();
     int countSCCs();

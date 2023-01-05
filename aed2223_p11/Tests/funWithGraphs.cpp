@@ -172,7 +172,40 @@ Graph FunWithGraphs::graph12() {
 // ----------------------------------------------------------
 
 // TODO
-pair<int, int> FunWithGraphs::police(vector<int> cost, vector<pair<int, int>> roads) {
-
-        return {0, 0};
+pair<int, int> FunWithGraphs::police(vector<int> costs, const vector<pair<int, int>>& roads) {
+    Graph g((int) costs.size(), true);
+    for (auto road : roads) g.addEdge(road.first, road.second);
+    for (int v = 1; v <= g.n; v++) {
+        g.nodes[v].cost = costs[v - 1];
+        g.nodes[v].visited = false;
+        g.nodes[v].inStack = false;
+        g.nodes[v].low = 0;
+        g.nodes[v].num = 0;
+    }
+    list<list<int>> scc;
+    int order = 1;
+    stack<int> s;
+    for (int v = 1; v <= g.n; v++) {
+        if (!g.nodes[v].visited) {
+            g.dfs_scc2(v, s, scc, order);
+        }
+    }
+    int cost = 0;
+    int permutations = 1;
+    for (const list<int>& l : scc) {
+        int min_cost = INT_MAX;
+        int n_min = 0;
+        for (int v : l) {
+            if (g.nodes[v].cost < min_cost) {
+                min_cost = g.nodes[v].cost;
+                n_min = 1;
+            }
+            else if (g.nodes[v].cost == min_cost) {
+                n_min++;
+            }
+        }
+        cost += min_cost;
+        permutations *= n_min;
+    }
+    return {cost, permutations};
 }

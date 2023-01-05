@@ -24,7 +24,7 @@ public:
     static Graph graph11();
     static Graph graph12();
     // ----- Functions to implement in this class -----
-    static pair<int, int> police(vector<int> cost, vector<pair<int, int>> roads);
+    static pair<int, int> police(vector<int> cost, const vector<pair<int, int>>& roads);
 };
 
 #endif
